@@ -71,9 +71,7 @@ searchBtn.addEventListener('click', function( event ) {
 
 searchField.addEventListener('keydown', function( event ) {
     if (event.key === 'Enter'){
-        //event.preventDefault();
         searchBtn.click();
-        //search()
     }
 })
 
