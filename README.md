@@ -6,7 +6,7 @@ API via the Fetch API method. If you are in need of a new read, try *bookUP*!
 The home page was created to be responsive depending on the size of the user's browser window. Examples are shown below.
 
 
-![Image](example image/bookUP1)
+![Image][example images/bookUP1]
 
 
 # Lookup Page
