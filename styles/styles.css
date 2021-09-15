@@ -1,0 +1,151 @@
+body {
+    background: #bfdbf7;
+    font-family: Didot, serif;
+    color: white;
+    font-weight: bold;
+    margin:0;
+}
+
+#nav-bar {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+    padding-right: 10px;
+}
+
+#nav-title {
+    font-size: 30px;
+    padding-left: 25px;
+    font-weight: bold;
+    margin: 10px 0px 16px 0px;
+}
+
+.nav-item {
+    display: inline;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    margin: 10px;
+}
+
+.nav-item:hover {
+    color: #014f86;
+    border-bottom: #014f86 solid 1px;
+}
+
+#main-section {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 85px;
+}
+
+#page-desc {
+    padding-left: 100px;
+}
+
+#title-lbl {
+    font-size: 80px;
+    margin-bottom: 20px;
+}
+
+#desc-lbl {
+    font-size: 25px;
+    margin-bottom: 40px;
+}
+
+#write-btn {
+    border-radius: 25px;
+    width: 120px;
+    height: 45px;
+    background-color: #014f86;
+    border: none;
+    font-family: Didot, serif;
+    color: white;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+#write-btn:hover {
+    background-color: white;
+    color: #014f86;
+    cursor: pointer;
+}
+
+.book-image {
+    padding-right: 50px;
+}
+
+#input-container {
+    text-align: center;
+    padding-top: 20px;
+}
+
+#input-field {
+    height: 35px;
+    width: 50%;
+    background-color: white;
+    border: darkgrey 1px solid;
+    border-radius: 10px;
+    padding-left: 15px;
+    font-family: Didot, serif;
+}
+
+#input-field:hover {
+    border: slategrey 1px solid;
+}
+
+#input-field:focus {
+    outline: none;
+}
+
+#search-btn {
+    height: 39px;
+    width: 33px;
+    background-color: white;
+    border: darkgrey 1px solid;
+    border-radius: 10px;
+}
+
+#search-btn:hover {
+    border: slategray 1px solid;
+    cursor: pointer;
+}
+
+#book-container {
+    margin-top: 30px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+#pic {
+    width: 130px;
+    border: white 2px solid;
+    border-radius: 4px;
+}
+
+#search-result {
+    display: flex;
+    margin: 15px 0;
+    background-color: rgba(1, 79, 134, 0.333);
+    border-radius: 10px;;
+}
+
+#pic-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 20px;
+    opacity: 1;
+}
+
+#pic-container > p {
+    text-align: center;
+}
+
+#book-info {
+    padding-right: 15px;
+    font-weight: normal;
+}
