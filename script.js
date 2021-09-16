@@ -46,7 +46,8 @@ function displaySearch(books) {
 } 
 
 function search() {
-    const googleBooks_URL = `https://www.googleapis.com/books/v1/volumes?q=${searchField.value}&key=AIzaSyDls8OB9Fr9g3iCjdwY7h60ld59k35kR7A`
+    //Input your own Google API Key
+    const googleBooks_URL = `https://www.googleapis.com/books/v1/volumes?q=${searchField.value}&key=`
     fetch(googleBooks_URL)
     .then( (response) =>  response.json() )
     .then( (data) => {
